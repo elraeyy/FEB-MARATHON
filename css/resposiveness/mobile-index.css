@@ -1,0 +1,15 @@
+/* Mobile Phones */
+@media (min-width: 320px) and (max-width: 850px) {
+    
+    /* CSS */
+    #card_section{
+      display: block;
+      height: auto;
+      width: 90%;
+    }
+    .main_image{
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 10px;
+
+    }
+  }

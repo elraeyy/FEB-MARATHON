@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #9194a1;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav_section{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding-top: 2.4%;
+}
+
+#headerlinksdiv{
+    width: 40%;
+}
+
+#headerlinksdiv>a{
+     margin-right: 7%;
+}
+
+#headerlinksdiv > a:nth-child(4){
+    margin-right: 0%;
+    margin-right: 0%;
+    color: #fbf3f3;
+    background-color: #fa5757;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+#left_hero_section h1{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 15px;
+}
+#left_hero_section p{
+    color: #9194a1;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#hero_section{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+#left_hero_section{
+    margin-left: 8%;
+}
+.btn{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    padding: 12px 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+#HeroButtonsDiv > button:nth-child(1){
+    background: #5368df;
+    color: white;
+    -webkit-box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
+    box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
+}
+#HeroButtonsDiv > button:nth-child(2){
+    background: #FFF;
+    color: #000;
+    -webkit-box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
+    box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
+}
+

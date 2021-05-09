@@ -70,3 +70,19 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+  
+    #card_section{
+      display: block;
+      height: auto;
+      width: 90%;
+    }
+    .main_image{
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 10px;
+      
+    }
+
+    
+  } */
