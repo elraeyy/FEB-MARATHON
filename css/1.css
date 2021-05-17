@@ -61,7 +61,13 @@ a{
 }
 #left_hero_section{
     margin-left: 8%;
+    width: 50%;
+    height: 600px;
+    /* margin-top: 100px; */
+    padding-bottom: 20px;
+    margin-bottom: 10%;
 }
+
 .btn{
     font-family: 'Rubik', sans-serif;
     font-size: 1rem;
@@ -85,4 +91,294 @@ a{
     -webkit-box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
     box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
 }
+#z_index_image{
+    position: relative;
+    bottom: 380px;
+    left: 70px;
+    z-index: -1;
+    max-width: 100%;
+}
+#features_container{
+    margin-top: -400px;
+    text-align: center;
+    box-sizing: inherit;
+}
+#features_text>p{
+    width: 530px;
+    margin-bottom: 0;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+#features_container > p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #9194a1;
+    line-height: 1.5;
+    box-sizing: inherit;
+    width: 530px;
+    text-align: center;
+    /* margin-bottom: 0; */
+    margin: auto;
+}
+#features_container > h2{
+    color: #000;
+    font-weight: 500;
+}
+#features_nav{
+    padding-top: 4.5%;
+    display: flex;
+    justify-content: center;
+}
+#features_nav > div:nth-child(1){
+    margin-right: 7%;
+    margin-left: 7%;
+    color: #000;
+}
+#features_nav > div:nth-child(2){
+    margin-right: 5%;
+}
+#features_nav > div:nth-child(3){
+    margin-right: 7%;
+}
+#features_content{
+    display: flex;
+}
+#item1 > div.features_content_image > img{
+    margin-top: 4%;
+    position: relative;
+    left: 13%;
+}
+#item1{
+    display: flex;
+}
+#item1 > div.features_content_image > div{
+    height: 350px;
+    width: 580px;
+    background-color: #5368df;
+    border-bottom-right-radius: 35%;
+    border-top-right-radius: 70%;
+    top: -275px;
+    position: relative;
+    z-index: -4;
+    right: 18%;
+}
+#feature1{
+    padding-right: 100px;
+    padding-left: 60px;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 7%;
+}
+#feature1 > h2{
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    left: -9%;
+    padding-bottom: 5%;
+}   
+#feature1 > p{
+    position: relative;
+    left: 5%;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #9194a1;
+    line-height: 1.5;
+    box-sizing: inherit;
+    width: 90%;
+}
+#feature1 > button{
+    color: #5368df;
+    border: 2px solid #5368df;
+    padding: 10px 26px;
+    display: flex;
+    align-items: flex-start;
+}
+#section_container{
+    place-items: center;
+    display: grid;
+}
+#extension_header > h2{
+    color: #000;
+    font-weight: 500;
+}
+#extension_header > h2{
+    display: flex;
+    justify-content: center;   
+}
+#extension_header > p{
+    display: flex;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+#extension_header{
+    position: relative;
+    top: -200%;
+}
+#section_container > div.extension_cards{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#extensions_cards_item {
+    width: 280px;
+    height: 360px;
+    background: #FFF;
+    -webkit-box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  #extensions_cards_item .line{
+    width: 100%;
+    border-top: 4px dashed #9194a1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #extensions_cards_item > h3{
+    color: #000;
+    font-weight: 500;
+  }
+  #extensions_cards_item > p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  #extensions_cards_item > button{
+    box-sizing: inherit;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    padding: 12px 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    background: #5368df;
+    color: white;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    height: 45px;
+  }
+  #extensions_cards_item .two{
+      padding-top: 6%;
+  }
+  #extensions_cards_item .three{
+      padding-top: 10%;
+  }
+  body > main > section.question > div > div.questions_title{
+    display: grid;
+    place-items: center;
+    margin-bottom: 40px;
+  }
+  body > main > section.question > div > div.questions_lists{
+    margin: 0 auto;
+    width: 500px;
+  }
+body > main > section.question > div > button{
+    background: #5368df;
+    color: white;
+    -webkit-box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
+    box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
+    display:block;
+    margin-top: 4%;
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
+.contact{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background: #5368df;
+}
+.contact_container{
+    padding-top: 50px;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
 
+.contact_text{
+    width: 350px;
+}
+
+body > main > section.contact > div.contact_container > div > p{  
+      color: #FFF;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+body > main > section.contact > div.contact_container > div > h2{
+    color: #FFF;
+}
+
+#email{
+    width: 215px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+body > main > section.contact > div.contact_email > button{
+    background: #fa5757;
+    color: #FFF;
+    font-size: 1rem;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    width: 150px;
+    height: 45px;
+}
+body > main > section.contact > div.contact_email{
+    padding-top: 50px;
+    place-items: center;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    height: 80px;
+    background: #252b46;
+    position: relative;
+    top: 25%;
+}
+.footer_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 87%;
+    line-height: 80px;
+}
+.footer_label{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #9194a1;
+}
+.footer_social svg {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.footer_social svg:nth-child(2) {
+    margin-right: 0;
+}
