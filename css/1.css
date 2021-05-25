@@ -2,12 +2,18 @@
     padding: 0px;
     margin: 0px;
 }
-
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+.btnBlue{
+    color: white;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.125rem;
+    /* font-size: 1.125rem; */
     font-weight: 400;
     color: #9194a1;
     line-height: 1.5;
@@ -22,7 +28,7 @@ a{
     justify-content: space-between;
     width: 85%;
     margin: auto;
-    padding-top: 2.4%;
+    padding-top: 1.5%;
 }
 
 #headerlinksdiv{
@@ -32,19 +38,15 @@ a{
 #headerlinksdiv>a{
      margin-right: 7%;
 }
-
-#headerlinksdiv > a:nth-child(4){
-    margin-right: 0%;
-    margin-right: 0%;
-    color: #fbf3f3;
-    background-color: #fa5757;
-    padding: 12px 25px;
-    border-radius: 5px;
+#headerlinksdiv{
+    display: flex;
 }
-
+#headerlinksdiv > a:nth-child(1), #headerlinksdiv > a:nth-child(2), #headerlinksdiv > a:nth-child(3){
+    margin-top: 10px;
+}
 #left_hero_section h1{
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 9  00;
     line-height: 1.2;
     color: #000;
     margin-bottom: 15px;
@@ -59,6 +61,10 @@ a{
     margin-top: 100px;
     align-items: center;
 }
+#Right_hero_section{
+    position: relative;
+    right: 6%;
+}
 #left_hero_section{
     margin-left: 8%;
     width: 50%;
@@ -66,6 +72,12 @@ a{
     /* margin-top: 100px; */
     padding-bottom: 20px;
     margin-bottom: 10%;
+}
+#left_hero_section > h1{
+    width: 80%;
+}
+#left_hero_section > p{
+    width: 75%;
 }
 
 .btn{
@@ -125,7 +137,7 @@ a{
 }
 #features_container > h2{
     color: #000;
-    font-weight: 500;
+    font-weight: 900;
 }
 #features_nav{
     padding-top: 4.5%;
@@ -194,7 +206,7 @@ a{
     width: 90%;
 }
 #feature1 > button{
-    color: #5368df;
+    background: #5368df;
     border: 2px solid #5368df;
     padding: 10px 26px;
     display: flex;
@@ -244,22 +256,22 @@ a{
     margin-right: 30px;
     text-align: center;
     border-radius: 8px;
-  }
-  #extensions_cards_item .line{
+}
+#extensions_cards_item .line{
     width: 100%;
     border-top: 4px dashed #9194a1;
     margin-top: 30px;
     margin-bottom: 30px;
-  }
-  #extensions_cards_item > h3{
+}
+#extensions_cards_item > h3{
     color: #000;
     font-weight: 500;
-  }
-  #extensions_cards_item > p{
+}
+#extensions_cards_item > p{
     margin-top: 16px;
     margin-bottom: 16px;
-  }
-  #extensions_cards_item > button{
+}
+#extensions_cards_item > button{
     box-sizing: inherit;
     font-family: 'Rubik', sans-serif;
     font-size: 1rem;
@@ -271,24 +283,34 @@ a{
     background: #5368df;
     color: white;
     box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
-    width: 220px;
     height: 45px;
-  }
-  #extensions_cards_item .two{
+}
+#extensions_cards_item .two{
       padding-top: 6%;
-  }
-  #extensions_cards_item .three{
-      padding-top: 10%;
-  }
-  body > main > section.question > div > div.questions_title{
+}
+#extensions_cards_item .three{
+  padding-top: 10%;
+}
+body > main > section.question > div > div.questions_title > h2{
+    margin-top: 2%;
+    font-weight: 900;
+    color: #000;
+}
+body > main > section.question > div > div.questions_title{
     display: grid;
     place-items: center;
     margin-bottom: 40px;
-  }
-  body > main > section.question > div > div.questions_lists{
+}
+body > main > section.question > div > div.questions_lists{
     margin: 0 auto;
     width: 500px;
-  }
+    color: #000;
+
+}
+body > main > section.question > div > div.questions_title > p{
+    width: 540px;
+    text-align: center;
+}
 body > main > section.question > div > button{
     background: #5368df;
     color: white;
@@ -325,10 +347,9 @@ body > main > section.contact > div.contact_container > div > p{
 body > main > section.contact > div.contact_container > div > h2{
     color: #FFF;
 }
-
 #email{
-    width: 215px;
-    height: 30px;
+    width: 230px;
+    height: 45px;
     border: none;
     border-radius: 4px;
     margin-right: 10px;
